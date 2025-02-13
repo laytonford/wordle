@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wordle">
+        <h1>Layton's Wordle</h1>
+
+        <div class="boxes">
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+        </div>
+        <div class="boxes">
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+        </div>
+        <div class="boxes">
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+        </div>
+        <div class="boxes">
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+        </div>
+        <div class="boxes">
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+        </div>
+        <div class="boxes">
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+            <input class="box" readonly>
+        </div>
+        <br>
+        <div id="keys">
+            <button onclick="appendToDisplay('Q')">Q</button>
+            <button onclick="appendToDisplay('W')">W</button>
+            <button onclick="appendToDisplay('E')">E</button>
+            <button onclick="appendToDisplay('R')">R</button>
+            <button onclick="appendToDisplay('T')">T</button>
+            <button onclick="appendToDisplay('Y')">Y</button>
+            <button onclick="appendToDisplay('U')">U</button>
+            <button onclick="appendToDisplay('I')">I</button>
+            <button onclick="appendToDisplay('O')">O</button>
+            <button onclick="appendToDisplay('P')">P</button>
+        </div>
+        <div id="keys">
+            <button onclick="appendToDisplay('A')">A</button>
+            <button onclick="appendToDisplay('S')">S</button>
+            <button onclick="appendToDisplay('D')">D</button>
+            <button onclick="appendToDisplay('F')">F</button>
+            <button onclick="appendToDisplay('G')">G</button>
+            <button onclick="appendToDisplay('H')">H</button>
+            <button onclick="appendToDisplay('J')">J</button>
+            <button onclick="appendToDisplay('K')">K</button>
+            <button onclick="appendToDisplay('L')">L</button>
+        </div>
+        <div id="keys">
+            <button onclick="appendToDisplay('ENTER')">ENTER</button>
+            <button onclick="appendToDisplay('Z')">Z</button>
+            <button onclick="appendToDisplay('X')">X</button>
+            <button onclick="appendToDisplay('C')">C</button>
+            <button onclick="appendToDisplay('V')">V</button>
+            <button onclick="appendToDisplay('B')">B</button>
+            <button onclick="appendToDisplay('N')">N</button>
+            <button onclick="appendToDisplay('M')">M</button>
+            <button onclick="appendToDisplay('DELETE')">DELETE</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
